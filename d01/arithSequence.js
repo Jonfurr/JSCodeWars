@@ -22,15 +22,13 @@
 				// **********
 
 function ArithmeticSequenceSum(a, r, n) {
-  var num = a;
   var newNum = 0;
-  var sum = 0;
+  var result = 0;
   for (i = 1; i <= n; i ++) {
-    Newnum = num + r
-    console.log(Newnum);
-    sum = sum + num;
+    newNum = newNum + r;
   }
-  return num;
+  result = newNum + a;
+  return result;
 }
 
 ArithmeticSequenceSum(3, 2, 20)
